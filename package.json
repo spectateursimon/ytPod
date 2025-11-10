@@ -1,0 +1,28 @@
+{
+  "name": "ytpod",
+  "version": "1.0.0",
+  "description": "A YouTube-powered iPod Classic web player with authentic click wheel controls",
+  "main": "src/components/iPod.tsx",
+  "keywords": [
+    "ipod",
+    "youtube",
+    "music-player",
+    "react",
+    "typescript",
+    "click-wheel"
+  ],
+  "author": "Simon Pesch",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
